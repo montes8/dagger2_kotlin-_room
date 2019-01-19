@@ -1,7 +1,8 @@
-package com.example.dagger_kotlin
+package com.example.dagger_kotlin.ui
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.dagger_kotlin.R
 
 class MainActivity : AppCompatActivity() {
 
