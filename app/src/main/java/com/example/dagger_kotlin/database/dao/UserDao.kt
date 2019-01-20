@@ -17,9 +17,6 @@ interface UserDao {
     @Query("select * from User where id = :id")
     fun verDetalleUsuarioLogeado(id : Long ): User
 
-    @Query("select * from User where name = :nameuser")
-    fun verUsuarioSegunNombre(nameuser : String)
-
     //inserta un usuario y devuelve el id generado
     @Insert
     fun insert(usuarios: User): Long
